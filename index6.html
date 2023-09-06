@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TASK7</title>
+    <link rel="stylesheet" href="css7.css">
+</head>
+<body>
+    <h2>CSS-TASK7</h2>
+    <div id="outer">
+        <div id="inner">
+            <form action="index.html" method="GET" enctype="multipart/form-data">
+                <div>
+                     <label for="name"> Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                     <input placeholder="your name" type="text" name="name" id="name"   size="20" required minlength="10">
+                     <!-- <input  type="text" name="username" id="username" placeholder="username" value="G-" size="20" required minlength="10"> -->
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                    <input placeholder="youe email" type="email" name="email" id="email"   size="20" required>
+                
+               </div>
+                <br>
+
+                <div>
+                     <label for="password">Password:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
+                    
+                     <input type="password" name="password" id="password" size="20" maxlength="8" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phonenumber">Phone Number:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
+                   
+                    <input type="text" name="phonenumber" id="phonenumber" size="20" maxlength="10" required>
+               </div>
+               <br>
+               <div>
+                <br>
+                <div>
+                    <label for="genger">Gender:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                    <label for="male">male:</label>
+                    <input type="radio" name="gender"id="male" value="male">
+                    <label for="female">female:</label>
+                    <input type="radio" name="gender"id="female" value="female">
+                    <label for="other">other:</label>
+                    <input type="radio" name="gender"id="other" value="female">
+                    
+               </div>
+               <br>
+            <div>
+                <label for="language">language:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                 <select size="1" name="language" id="language">
+                       <!-- multiple also we can choose -->
+                       <option value=" ">Select language</option>
+                       <option value="Tamil">Tamil</option>
+                       <option value="English">English</option>
+                       <option value="Malayalam">Malayalam</option>
+                       <option value="Telugu">Telugu</option>
+                       <option value="Hindi">Hindi</option>
+                 </select>
+            </div>
+            <br>
+                <div>
+                    <label for="zip">Zip code:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                     <input type="text" name="zip" id="zip" size="20">
+                </div>
+                <br>
+                <div>
+                     <label for="about">About:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                     <textarea placeholder="write about yourself" type="text" name="about" id="about" cols="22" rows="3"> </textarea>
+                </div>
+                <br>
+                
+                <br>
+                <div id="btn">
+                    <button><b>Register</b></button>
+                </div>
+            
+        </div>
+    </div>
+</body>
+</html>
